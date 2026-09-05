@@ -1,236 +1,108 @@
-:root {
-    --bg-color: #121212;
-    --text-color: #ffffff;
-    --highlight: #ff5722;
-    --card-bg: #1e1e1e;
-}
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kacper (Boro) - Trener Personalny i Medyczny</title>
+    <meta name="description" content="Kacper - Certyfikowany trener personalny i medyczny, masażysta, dietetyk. Plany treningowe i opieka online. Zbuduj formę i zdrowie!">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">BORO<span>.COACH</span></a>
+            <ul class="nav-links">
+                <li><a href="#o-mnie">O mnie</a></li>
+                <li><a href="#oferta">Oferta</a></li>
+                <li><a href="#przemiany">Przemiany</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    line-height: 1.6;
-}
+    <header class="hero">
+        <div class="container">
+            <h1>TRENUJ Z BORO<br><span class="highlight"></span></h1>
+            <p>Treningi sylwetkowe, medyczne oraz kompleksowa opieka online.</p>
+            <a href="#kontakt" class="btn">Zacznijmy współpracę</a>
+        </div>
+    </header>
 
-section, footer { scroll-margin-top: 80px; }
+    <section id="o-mnie" class="container">
+        <h2>O <span class="highlight">Mnie</span></h2>
+        <div class="about-content">
+            <!-- Zaktualizowana nazwa zdjęcia trenera -->
+            <img src="img/Boro.jpg" alt="Trener Kacper" class="about-img">
+            <div class="about-text">
+                <p>Cześć! Mam na imię <strong>Kacper</strong>. Jestem trenerem personalnym i medycznym, a także dyplomowanym masażystą oraz dietetykiem.</p>
+                <p>Na co dzień prowadzę treningi sylwetkowe i prozdrowotne.Pracuje z pajcentami bólowymi jak i podpoiecznymi którzy chcą po prostu zrobić forme.
+                Współpracuje również z dziecmi i mlodzieżą</p>
+            </div>
+        </div>
+    </section>
 
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 60px 20px;
-}
+    <section id="oferta" class="bg-dark">
+        <div class="container">
+            <h2>Moja <span class="highlight">Oferta</span></h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Treningi Personalne</h3>
+                    <p>Wspólne treningi na siłowni. Pełna uwaga na technikę, Twoje zdrowie i maksymalne efekty. Wybierz karnet dla siebie:</p>
+                    <ul class="offer-list">
+                        <li><strong>8 treningów w miesiącu:</strong> 160 zł / trening</li>
+                        <li><strong>10 treningów w miesiącu:</strong> 150 zł / trening</li>
+                        <li><strong>12 treningów w miesiącu:</strong> 140 zł / trening</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Opieka Online (Prowadzenie)</h3>
+                    <p>Kompleksowe wsparcie, dzięki któremu osiągniesz cel pod moim czujnym okiem. W pakiecie otrzymujesz:</p>
+                    <ul class="offer-list">
+                        <li>Indywidualny plan treningowy i żywieniowy</li>
+                        <li><strong>Jeden trening face to face w miesiącu!</strong></li>
+                        <li>Śledzenie raportów, pomiarów i postępów</li>
+                        <li>Mój stały kontakt telefoniczny i wsparcie</li>
+                    </ul>
+                    <span class="price">300 zł / miesiąc</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-}
+<!-- Sekcja: Przemiany -->
+    <section id="przemiany" class="container">
+        <h2>Przemiany <span class="highlight">Podopiecznych</span></h2>
+        <!-- Siatka z 15 przemianami -->
+        <div class="transformations">
+            <div class="transformation-item"><img src="img/1.jpg" alt="Przemiana 1"></div>
+            <div class="transformation-item"><img src="img/13.jpg" alt="Przemiana 13"></div>
+            <div class="transformation-item"><img src="img/2.jpg" alt="Przemiana 2"></div>
+            <div class="transformation-item"><img src="img/3.jpg" alt="Przemiana 3"></div>
+            <div class="transformation-item"><img src="img/4.jpg" alt="Przemiana 4"></div>
+            <div class="transformation-item"><img src="img/5.jpg" alt="Przemiana 5"></div>
+            <div class="transformation-item"><img src="img/6.jpg" alt="Przemiana 6"></div>
+            <div class="transformation-item"><img src="img/7.jpg" alt="Przemiana 7"></div>
+            <div class="transformation-item"><img src="img/8.jpg" alt="Przemiana 8"></div>
+            <div class="transformation-item"><img src="img/9.jpg" alt="Przemiana 9"></div>
+            <!-- Nowe zdjęcia: -->
+            <div class="transformation-item"><img src="img/10.jpg" alt="Przemiana 10"></div>
+            <div class="transformation-item"><img src="img/11.jpg" alt="Przemiana 11"></div>
+            <div class="transformation-item"><img src="img/12.jpg" alt="Przemiana 12"></div>
+            <div class="transformation-item"><img src="img/14.jpg" alt="Przemiana 14"></div>
+            <div class="transformation-item"><img src="img/15.jpg" alt="Przemiana 15"></div>
+        </div>
+    </section>
 
-.highlight { color: var(--highlight); }
-.bg-dark { background-color: #0a0a0a; }
-.text-center { text-align: center; }
+    <footer id="kontakt">
+        <div class="container text-center">
+            <h2>Skontaktuj się <span class="highlight">ze mną</span></h2>
+            <p>Zadzwoń / Napisz: <strong class="highlight">+48 665 384 236</strong></p>
+            <p>Instagram: <strong>@boro_coach</strong></p>
+            <p class="copyright">© 2026 Kacper - Trener Personalny i Medyczny.</p>
+        </div>
+    </footer>
 
-/* Menu Nawigacyjne */
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(18, 18, 18, 0.95);
-    border-bottom: 1px solid #333;
-    z-index: 1000;
-}
-
-.nav-container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: 900;
-    color: #fff;
-    text-decoration: none;
-    letter-spacing: 1px;
-}
-
-.logo span { color: var(--highlight); }
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    transition: color 0.3s;
-}
-
-.nav-links a:hover { color: var(--highlight); }
-
-.btn {
-    display: inline-block;
-    background-color: var(--highlight);
-    color: #fff;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    text-transform: uppercase;
-    transition: background 0.3s;
-    margin-top: 20px;
-}
-
-.btn:hover { background-color: #e64a19; }
-
-/* Sekcja Główna (Hero) */
-.hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/tlo.jpg') center/cover; 
-}
-
-.hero h1 {
-    font-size: 4rem;
-    font-weight: 900;
-    line-height: 1.1;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    max-width: 600px;
-    margin: 0 auto 30px;
-}
-
-/* Sekcja: O mnie */
-.about-content {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-}
-
-.about-img {
-    width: 50%;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(255,87,34,0.2);
-}
-
-.about-text { width: 50%; }
-.about-text p { margin-bottom: 20px; font-size: 1.1rem; }
-
-/* Sekcja: Oferta */
-.cards {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.card {
-    background-color: var(--card-bg);
-    padding: 40px 30px;
-    border-radius: 10px;
-    flex: 1 1 400px;
-    max-width: 500px;
-    transition: transform 0.3s;
-    border-bottom: 3px solid var(--highlight);
-    display: flex;
-    flex-direction: column;
-}
-
-.card:hover { transform: translateY(-10px); }
-.card h3 { margin-bottom: 15px; font-size: 1.6rem; text-align: center; }
-.card p { text-align: center; margin-bottom: 20px; }
-
-.offer-list {
-    list-style: none;
-    margin-top: auto; 
-}
-
-.offer-list li {
-    position: relative;
-    padding-left: 25px;
-    margin-bottom: 12px;
-    font-size: 1.05rem;
-}
-
-.offer-list li::before {
-    content: '✔';
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: var(--highlight);
-    font-weight: bold;
-}
-
-.price {
-    display: block;
-    margin-top: 25px;
-    text-align: center;
-    font-weight: bold;
-    color: var(--highlight);
-    font-size: 1.4rem;
-}
-
-/* Sekcja: Przemiany (Zaktualizowana dla 9 zdjęć) */
-.transformations {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap; /* Pozwala zdjęciom schodzić do kolejnych rzędów */
-}
-
-.transformation-item {
-    background-color: var(--card-bg);
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    flex: 1 1 300px; /* Każde zdjęcie zajmie ok. 1/3 szerokości ekranu na komputerze */
-    max-width: 330px;
-}
-
-.transformation-item img {
-    max-width: 100%;
-    border-radius: 5px;
-    display: block;
-}
-
-/* Stopka */
-footer {
-    background-color: #000;
-    padding: 50px 0;
-}
-
-footer p { margin-bottom: 15px; font-size: 1.2rem; }
-.copyright { margin-top: 30px; font-size: 0.9rem; color: #666; }
-
-@media (max-width: 768px) {
-    .nav-container {
-        flex-direction: column;
-        gap: 15px;
-        padding: 15px 10px;
-    }
-    .nav-links {
-        gap: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .hero h1 { font-size: 2.5rem; }
-    .about-content { flex-direction: column; }
-    .about-img, .about-text { width: 100%; }
-}
+</body>
+</html>
